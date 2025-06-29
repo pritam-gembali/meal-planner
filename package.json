@@ -1,0 +1,28 @@
+{
+  "name": "meal-planner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "push": "npm run build && npx clasp push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pritam-gembali/meal-planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pritam-gembali/meal-planner/issues"
+  },
+  "homepage": "https://github.com/pritam-gembali/meal-planner#readme",
+  "devDependencies": {
+    "@google/clasp": "^3.0.6-alpha",
+    "@types/google-apps-script": "^1.0.99",
+    "@types/node": "^24.0.7",
+    "typescript": "^5.8.3"
+  }
+}

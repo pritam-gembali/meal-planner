@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Build directory
+dist/
+
+# Environment variables
+.env
+
+# Clasp authentication
+.clasprc.json
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
